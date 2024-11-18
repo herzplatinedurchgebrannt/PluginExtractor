@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "oPBWI9NAaMlCPWwkfc06A21CZXdxK7I+hxgJiSVidWl9bgHk20x4977ko6zCKpe1kt6oj3yitYo/Ve6Bs0pHFA==",
+  "success": true,
+  "projectFilePath": "/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/PluginExtractor.Reaper.csproj",
+  "expectedPackageFiles": [
+    "/home/lx/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

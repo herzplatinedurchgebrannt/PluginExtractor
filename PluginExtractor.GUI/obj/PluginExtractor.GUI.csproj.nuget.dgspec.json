@@ -1,0 +1,223 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/lx/repos/PluginExtractor/PluginExtractor.GUI/PluginExtractor.GUI.csproj": {}
+  },
+  "projects": {
+    "/home/lx/repos/PluginExtractor/PluginExtractor.Core/PluginExtractor.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lx/repos/PluginExtractor/PluginExtractor.Core/PluginExtractor.Core.csproj",
+        "projectName": "PluginExtractor.Core",
+        "projectPath": "/home/lx/repos/PluginExtractor/PluginExtractor.Core/PluginExtractor.Core.csproj",
+        "packagesPath": "/home/lx/.nuget/packages/",
+        "outputPath": "/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.10, 8.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/lx/repos/PluginExtractor/PluginExtractor.GUI/PluginExtractor.GUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lx/repos/PluginExtractor/PluginExtractor.GUI/PluginExtractor.GUI.csproj",
+        "projectName": "PluginExtractor.GUI",
+        "projectPath": "/home/lx/repos/PluginExtractor/PluginExtractor.GUI/PluginExtractor.GUI.csproj",
+        "packagesPath": "/home/lx/.nuget/packages/",
+        "outputPath": "/home/lx/repos/PluginExtractor/PluginExtractor.GUI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/PluginExtractor.Reaper.csproj": {
+                "projectPath": "/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/PluginExtractor.Reaper.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Avalonia": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Desktop": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Diagnostics": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Fonts.Inter": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "Avalonia.Themes.Fluent": {
+              "target": "Package",
+              "version": "[11.2.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.1, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.10, 8.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/PluginExtractor.Reaper.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/PluginExtractor.Reaper.csproj",
+        "projectName": "PluginExtractor.Reaper",
+        "projectPath": "/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/PluginExtractor.Reaper.csproj",
+        "packagesPath": "/home/lx/.nuget/packages/",
+        "outputPath": "/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/lx/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/lx/repos/PluginExtractor/PluginExtractor.Core/PluginExtractor.Core.csproj": {
+                "projectPath": "/home/lx/repos/PluginExtractor/PluginExtractor.Core/PluginExtractor.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.10, 8.0.10]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.110/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

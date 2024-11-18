@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "NIraKDqjsleDH2dvjTJ+EooU5lR/bid0SWoNPaxawiuPh9EvJrh2r+mFZDlMBzSFf7keFYT47nNjDeFTrtll5w==",
+  "success": true,
+  "projectFilePath": "/home/lx/repos/PluginExtractor/PluginExtractor.Core/PluginExtractor.Core.csproj",
+  "expectedPackageFiles": [
+    "/home/lx/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

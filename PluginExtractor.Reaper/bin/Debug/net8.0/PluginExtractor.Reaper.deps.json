@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "PluginExtractor.Reaper/1.0.0": {
+        "dependencies": {
+          "PluginExtractor.Core": "1.0.0"
+        },
+        "runtime": {
+          "PluginExtractor.Reaper.dll": {}
+        }
+      },
+      "PluginExtractor.Core/1.0.0": {
+        "runtime": {
+          "PluginExtractor.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PluginExtractor.Reaper/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "PluginExtractor.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/bin/Debug/net8.0/PluginExtractor.Core.deps.json
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/bin/Debug/net8.0/PluginExtractor.Core.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/bin/Debug/net8.0/PluginExtractor.Core.pdb
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/PluginExtractor.Core.GeneratedMSBuildEditorConfig.editorconfig
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/PluginExtractor.Core.AssemblyInfoInputs.cache
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/PluginExtractor.Core.AssemblyInfo.cs
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/PluginExtractor.Core.csproj.CoreCompileInputs.cache
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/PluginExtractor.Core.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/refint/PluginExtractor.Core.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/PluginExtractor.Core.pdb
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/ref/PluginExtractor.Core.dll

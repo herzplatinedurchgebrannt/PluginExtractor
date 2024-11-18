@@ -1,0 +1,15 @@
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/bin/Debug/net8.0/PluginExtractor.Reaper.deps.json
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/bin/Debug/net8.0/PluginExtractor.Reaper.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/bin/Debug/net8.0/PluginExtractor.Reaper.pdb
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/bin/Debug/net8.0/PluginExtractor.Core.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/bin/Debug/net8.0/PluginExtractor.Core.pdb
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/PluginExtractor.Reaper.csproj.AssemblyReference.cache
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/PluginExtractor.Reaper.GeneratedMSBuildEditorConfig.editorconfig
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/PluginExtractor.Reaper.AssemblyInfoInputs.cache
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/PluginExtractor.Reaper.AssemblyInfo.cs
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/PluginExtractor.Reaper.csproj.CoreCompileInputs.cache
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/PluginExtractor.Reaper.csproj.CopyComplete
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/PluginExtractor.Reaper.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/refint/PluginExtractor.Reaper.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/PluginExtractor.Reaper.pdb
+/home/lx/repos/PluginExtractor/PluginExtractor.Reaper/obj/Debug/net8.0/ref/PluginExtractor.Reaper.dll
