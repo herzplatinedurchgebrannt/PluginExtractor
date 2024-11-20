@@ -72,3 +72,4 @@
 /home/lx/repos/PluginExtractor/PluginExtractor.GUI/obj/Debug/net8.0/PluginExtractor.GUI.csproj.CopyComplete
 /home/lx/repos/PluginExtractor/PluginExtractor.GUI/obj/Debug/net8.0/PluginExtractor.GUI.genruntimeconfig.cache
 /home/lx/repos/PluginExtractor/PluginExtractor.GUI/obj/Debug/net8.0/ref/PluginExtractor.GUI.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.GUI/obj/Debug/net8.0/PluginExtractor.GUI.sourcelink.json

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PluginExtractor.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d300a57457c93d7e44deacb14b83e5014188d143")]
 [assembly: System.Reflection.AssemblyProductAttribute("PluginExtractor.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PluginExtractor.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

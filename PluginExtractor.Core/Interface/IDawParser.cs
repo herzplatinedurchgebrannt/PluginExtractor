@@ -4,5 +4,5 @@ namespace PluginExtractor.Core.Interface;
 
 public interface IDawParser
 {
-    List<Plugin> ExtractPlugins(string path);
+    Project ExtractPlugins(string path);
 }

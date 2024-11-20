@@ -3,16 +3,11 @@ using PluginExtractor.Core.Model;
 
 namespace PluginExtractor.Core.Service;
 
-public class PluginExtractorService
+public class PluginExtractorService(IDawParser dawParser)
 {
-    private readonly IDawParser _dawParser;
+    private readonly IDawParser _dawParser = dawParser;
 
-    public PluginExtractorService(IDawParser dawParser)
-    {
-        _dawParser = dawParser;
-    }
-
-    public List<Plugin> ExtractPlugins(string path)
+    public Project ExtractPlugins(string path)
     {
         return _dawParser.ExtractPlugins(path);
     }

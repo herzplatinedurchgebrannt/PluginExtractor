@@ -9,3 +9,4 @@
 /home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/refint/PluginExtractor.Core.dll
 /home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/PluginExtractor.Core.pdb
 /home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/ref/PluginExtractor.Core.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.Core/obj/Debug/net8.0/PluginExtractor.Core.sourcelink.json

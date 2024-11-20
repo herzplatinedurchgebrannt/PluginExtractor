@@ -10,6 +10,7 @@ public partial class MainWindowViewModel : ViewModelBase
 {
     private readonly IDawParser _dawParser;
 
+    public string ProjectName { get; private set; } = string.Empty;
     public ObservableCollection<Plugin> Plugins{ get;} = [];
 
     public MainWindowViewModel(IDawParser dawParser)
@@ -20,13 +21,15 @@ public partial class MainWindowViewModel : ViewModelBase
 
     public void LoadPlugins(string projectFilePath)
     {
-        var plugins = _dawParser.ExtractPlugins(projectFilePath);
+        var project = _dawParser.ExtractPlugins(projectFilePath);
         Plugins.Clear();
 
-        foreach (var plugin in plugins)
+        foreach (Plugin plugin in project.Plugins)
         {
             Plugins.Add(plugin);
         }
+
+        ProjectName = project.Name;
     }
 
     public string Greeting { get; } = "Welcome to Avalonia!";

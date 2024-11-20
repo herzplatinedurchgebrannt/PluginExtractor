@@ -9,7 +9,7 @@ public class ReaperParser : IDawParser
 
     private static readonly Regex PluginRegex = new Regex(@"<([^ ]+) ""([^:]+): ([^""]+)""", RegexOptions.Compiled);
 
-    public List<Plugin> ExtractPlugins(string projectFilePath)
+    public Project ExtractPlugins(string projectFilePath)
     {
         if (string.IsNullOrEmpty(projectFilePath))
         {
@@ -38,12 +38,12 @@ public class ReaperParser : IDawParser
                 if (plugins.Add(pluginKey))
                 {
                     Console.WriteLine($"{pluginFormat}\t{pluginType}\t{pluginName}");
-                    pluginList.Add(new Plugin (pluginName, "", pluginType));
+                    pluginList.Add(new Plugin (pluginName, "unknown", pluginType));
                 }
             }
         }
 
-        return pluginList;
+        return new Project("Projectname", "Reaper", projectFilePath, pluginList);
     }
 }
 

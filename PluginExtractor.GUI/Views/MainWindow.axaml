@@ -3,11 +3,11 @@
         xmlns:vm="using:PluginExtractor.GUI.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        mc:Ignorable="d" d:DesignWidth="200" d:DesignHeight="100"
         x:Class="PluginExtractor.GUI.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
-        Icon="/Assets/avalonia-logo.ico"
-        Title="PluginExtractor.GUI">
+        Icon="/Assets/grim-reaper.190x256.png"
+        Title="DAW Plugin Extractor">
 
     <Design.DataContext>
         <!-- This only sets the DataContext for the previewer in an IDE,
@@ -16,15 +16,26 @@
     </Design.DataContext>
 
     <StackPanel>
-        <TextBlock Text="Gefundene Plugins:" Margin="10"/>
-            <ItemsControl ItemsSource="{Binding Plugins}">
-                <ItemsControl.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding Name}" />
-                    </DataTemplate>
-                </ItemsControl.ItemTemplate>
-            </ItemsControl>
-        <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Text="{Binding ProjectName}" Margin="10"/>
+        <ItemsControl ItemsSource="{Binding Plugins}">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="5">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="2*"/>
+                            <ColumnDefinition Width="1*"/>
+                        </Grid.ColumnDefinitions>
+                        
+                        <TextBlock Text="{Binding Name}" Grid.Column="0" Margin="5"/>
+                        <TextBlock Text="{Binding Type}" Grid.Column="1" Margin="5"/>
+                        <TextBlock Text="{Binding Manufacturer}" Grid.Column="2" Margin="5"/>
+                        <TextBlock Text="{Binding Version}" Grid.Column="3" Margin="5"/>
+                    </Grid>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
     </StackPanel>
 
 </Window>
