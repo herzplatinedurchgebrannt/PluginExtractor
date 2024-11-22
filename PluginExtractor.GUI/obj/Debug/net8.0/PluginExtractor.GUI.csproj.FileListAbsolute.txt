@@ -73,3 +73,7 @@
 /home/lx/repos/PluginExtractor/PluginExtractor.GUI/obj/Debug/net8.0/PluginExtractor.GUI.genruntimeconfig.cache
 /home/lx/repos/PluginExtractor/PluginExtractor.GUI/obj/Debug/net8.0/ref/PluginExtractor.GUI.dll
 /home/lx/repos/PluginExtractor/PluginExtractor.GUI/obj/Debug/net8.0/PluginExtractor.GUI.sourcelink.json
+/home/lx/repos/PluginExtractor/PluginExtractor.GUI/bin/Debug/net8.0/DynamicData.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.GUI/bin/Debug/net8.0/ReactiveUI.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.GUI/bin/Debug/net8.0/Splat.dll
+/home/lx/repos/PluginExtractor/PluginExtractor.GUI/bin/Debug/net8.0/System.Reactive.dll

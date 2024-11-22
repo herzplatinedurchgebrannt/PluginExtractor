@@ -1,13 +1,11 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
-using Avalonia.Data.Core;
 using Avalonia.Data.Core.Plugins;
 using System.Linq;
 using Avalonia.Markup.Xaml;
 using PluginExtractor.GUI.ViewModels;
 using PluginExtractor.GUI.Views;
 using Microsoft.Extensions.DependencyInjection;
-using PluginExtractor.Core;
 using PluginExtractor.Reaper;
 using System;
 using PluginExtractor.Core.Interface;
@@ -24,8 +22,9 @@ public partial class App : Application
 
         var services = new ServiceCollection();
 
-        services.AddTransient<IDawParser, ReaperParser>(); 
-        services.AddTransient<MainWindowViewModel>();            
+        services.AddTransient<IDawParser, ReaperParser>();
+        services.AddTransient<IFileDialogService, FileDialogService>();
+        services.AddTransient<MainWindowViewModel>();
 
         ServiceProvider = services.BuildServiceProvider();
     }

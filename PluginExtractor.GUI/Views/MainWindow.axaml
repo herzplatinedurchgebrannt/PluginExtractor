@@ -14,9 +14,17 @@
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-
     <StackPanel>
-        <TextBlock Text="{Binding ProjectName}" Margin="10"/>
+        <Grid VerticalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+            <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal">
+                <Button Command="{Binding OpenFileCommand}">Open File</Button>
+                <Button Command="{Binding SaveFileCommand}">Save File</Button>
+            </StackPanel>
+        </Grid>
         <ItemsControl ItemsSource="{Binding Plugins}">
             <ItemsControl.ItemTemplate>
                 <DataTemplate>
@@ -27,7 +35,6 @@
                             <ColumnDefinition Width="2*"/>
                             <ColumnDefinition Width="1*"/>
                         </Grid.ColumnDefinitions>
-                        
                         <TextBlock Text="{Binding Name}" Grid.Column="0" Margin="5"/>
                         <TextBlock Text="{Binding Type}" Grid.Column="1" Margin="5"/>
                         <TextBlock Text="{Binding Manufacturer}" Grid.Column="2" Margin="5"/>

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "RyE/S2UuQ2BBgHSWHp/8tGlKVgFtq/BwWl++mC03VGCDyAaUnPaZmiDPJWb6PpZxdRXiAHxhZfzWpzKZctKHbw==",
+  "dgSpecHash": "woesvp7TTSqUwCJuEPqhpaPygyjo9FZDRGLz6Gzg81oafjOy8z/jF2R6p2W7PoAtKHYpBIcFmBy0/F2RFi1/hg==",
   "success": true,
   "projectFilePath": "/home/lx/repos/PluginExtractor/PluginExtractor.GUI/PluginExtractor.GUI.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "/home/lx/.nuget/packages/avalonia.win32/11.2.1/avalonia.win32.11.2.1.nupkg.sha512",
     "/home/lx/.nuget/packages/avalonia.x11/11.2.1/avalonia.x11.11.2.1.nupkg.sha512",
     "/home/lx/.nuget/packages/communitytoolkit.mvvm/8.2.1/communitytoolkit.mvvm.8.2.1.nupkg.sha512",
+    "/home/lx/.nuget/packages/dynamicdata/9.0.4/dynamicdata.9.0.4.nupkg.sha512",
     "/home/lx/.nuget/packages/harfbuzzsharp/7.3.0.2/harfbuzzsharp.7.3.0.2.nupkg.sha512",
     "/home/lx/.nuget/packages/harfbuzzsharp.nativeassets.linux/7.3.0.2/harfbuzzsharp.nativeassets.linux.7.3.0.2.nupkg.sha512",
     "/home/lx/.nuget/packages/harfbuzzsharp.nativeassets.macos/7.3.0.2/harfbuzzsharp.nativeassets.macos.7.3.0.2.nupkg.sha512",
@@ -29,12 +30,16 @@
     "/home/lx/.nuget/packages/microcom.runtime/0.11.0/microcom.runtime.0.11.0.nupkg.sha512",
     "/home/lx/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg.sha512",
     "/home/lx/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "/home/lx/.nuget/packages/reactiveui/20.1.63/reactiveui.20.1.63.nupkg.sha512",
     "/home/lx/.nuget/packages/skiasharp/2.88.8/skiasharp.2.88.8.nupkg.sha512",
     "/home/lx/.nuget/packages/skiasharp.nativeassets.linux/2.88.8/skiasharp.nativeassets.linux.2.88.8.nupkg.sha512",
     "/home/lx/.nuget/packages/skiasharp.nativeassets.macos/2.88.8/skiasharp.nativeassets.macos.2.88.8.nupkg.sha512",
     "/home/lx/.nuget/packages/skiasharp.nativeassets.webassembly/2.88.8/skiasharp.nativeassets.webassembly.2.88.8.nupkg.sha512",
     "/home/lx/.nuget/packages/skiasharp.nativeassets.win32/2.88.8/skiasharp.nativeassets.win32.2.88.8.nupkg.sha512",
+    "/home/lx/.nuget/packages/splat/15.1.1/splat.15.1.1.nupkg.sha512",
+    "/home/lx/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/home/lx/.nuget/packages/system.io.pipelines/8.0.0/system.io.pipelines.8.0.0.nupkg.sha512",
+    "/home/lx/.nuget/packages/system.reactive/6.0.1/system.reactive.6.0.1.nupkg.sha512",
     "/home/lx/.nuget/packages/tmds.dbus.protocol/0.20.0/tmds.dbus.protocol.0.20.0.nupkg.sha512",
     "/home/lx/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.10/microsoft.aspnetcore.app.ref.8.0.10.nupkg.sha512"
   ],

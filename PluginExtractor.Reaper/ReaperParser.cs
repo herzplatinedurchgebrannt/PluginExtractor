@@ -9,7 +9,7 @@ public class ReaperParser : IDawParser
 
     private static readonly Regex PluginRegex = new Regex(@"<([^ ]+) ""([^:]+): ([^""]+)""", RegexOptions.Compiled);
 
-    public Project ExtractPlugins(string projectFilePath)
+    public Project ExtractPlugins(string? projectFilePath)
     {
         if (string.IsNullOrEmpty(projectFilePath))
         {
