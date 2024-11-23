@@ -4,8 +4,6 @@ using System.IO;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Avalonia;
-using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Platform.Storage;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -100,52 +98,5 @@ namespace PluginExtractor.GUI.ViewModels
             }
         }
         #endregion
-
-
-
-
-
-        // private void LoadProject()
-        // {
-        //     if (!File.Exists(ProjectFilePath))
-        //     {
-        //         ProjectName = "Datei nicht gefunden!";
-        //         Plugins.Clear();
-        //         return;
-        //     }
-
-        //     ProjectName = Path.GetFileName(ProjectFilePath);
-
-        //     // Plugins laden
-        //     Plugins.Clear();
-        //     var project = _parser.ExtractPlugins(ProjectFilePath);
-        //     foreach (var plugin in project.Plugins)
-        //     {
-        //         Plugins.Add(plugin);
-        //     }
-        // }
-
-        // private async Task SelectFileAsync()
-        // {           
-
-        //     var dialog = new OpenFileDialog
-        //     {
-        //         Title = "Reaper-Projektdatei auswählen",
-        //         Filters = new List<FileDialogFilter>
-        //         {
-        //             new FileDialogFilter { Name = "Reaper-Projektdateien", Extensions = { "rpp" } },
-        //             new FileDialogFilter { Name = "Alle Dateien", Extensions = { "*" } }
-        //         }
-        //     };
-
-        //     var result = await dialog.ShowAsync(new Window());
-        //     if (result != null && result.Length > 0)
-        //     {
-        //         Avalonia.Threading.Dispatcher.UIThread.Post(() => 
-        //         {
-        //             ProjectFilePath = result[0];
-        //         });
-        //     }
-        // }
     }
 }

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PluginExtractor.Reaper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29937f7ea735b150205b4672fc2676794430633d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4eafd50a34a6e1bc8c849dd42d7b65b960f418a6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PluginExtractor.Reaper")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PluginExtractor.Reaper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -7,7 +7,8 @@ namespace PluginExtractor.Reaper;
 public class ReaperParser : IDawParser
 {
 
-    private static readonly Regex PluginRegex = new Regex(@"<([^ ]+) ""([^:]+): ([^""]+)""", RegexOptions.Compiled);
+    // private static readonly Regex PluginRegex = new Regex(@"<([^ ]+) ""([^:]+): ([^""]+)""", RegexOptions.Compiled);
+    private static readonly Regex PluginRegex = new Regex(@"<*""([^:]+): ([^(]+) \(([^)]*)\)", RegexOptions.Compiled);
 
     public Project ExtractPlugins(string? projectFilePath)
     {
@@ -29,16 +30,16 @@ public class ReaperParser : IDawParser
             var match = PluginRegex.Match(line);
             if (match.Success)
             {
-                string pluginFormat = match.Groups[1].Value;
-                string pluginType = match.Groups[2].Value;
-                string pluginName = match.Groups[3].Value;
+                string type = match.Groups[1].Value;
+                string name = match.Groups[2].Value;
+                string manufacturer = match.Groups[3].Value;
 
-                string pluginKey = $"{pluginFormat}:{pluginName}";
+                string pluginKey = $"{name}:{manufacturer}:{type}";
 
                 if (plugins.Add(pluginKey))
                 {
-                    Console.WriteLine($"{pluginFormat}\t{pluginType}\t{pluginName}");
-                    pluginList.Add(new Plugin (pluginName, "unknown", pluginType));
+                    Console.WriteLine($"{name}:{manufacturer}:{type}");
+                    pluginList.Add(new Plugin (name, manufacturer, type));
                 }
             }
         }
